@@ -57,7 +57,8 @@ decoder的第一层即完成了颜色的变换，即decoder_41[1:]!=decoder_31
 即我们想要41的颜色等大纹理的变换 和 31 对小纹理的变换
 似乎只能通过downsample/upsanmple 可是channel不同？怎么加？
 
-
+# 10/12
+1.swap的另一个问题实际上就是只能匹配相同尺度的特征，
 
 # 想法
 0.在swap时加入channel  attention 干啥？
