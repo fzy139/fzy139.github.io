@@ -353,7 +353,7 @@ c容量
 ## 循环
 # 裸题列表
 poj1273 最大流
-DFS poj1321 
+DFS poj1321 3984
 BFS 3984 3287 
 最小生成树 1258 prim/kruscal
 最短路 1847 Floyed Dj 
