@@ -100,3 +100,12 @@ vgg不同通道是对不同物体或部件进行提取（纹理、颜色、边�
 1. 推导gram和swap之间的关系，发现swap只是优化和content的距离，没有考虑gram矩阵，初步打算在c+s和s卷积找最大
 2.git commit
 3.尝试修复训练到1500左右卡死 换驱动430无果
+
+
+# 01/07
+1.找回服务器 
+2.发现小lr和用相关系数计算的swap颜色较好。
+3.继续推导swap与gram之间的关系（如何用卷积计算gram）发现gram是channel之间的，而swap是spatial之间的，应该考虑如何swap而不破坏通道间关系，
+想起WCT就是一种办法，如果用channel-wise？
+
+4.
